@@ -22,7 +22,7 @@ Tipjar is a privacy-preserving Netlify application that turns Starbucks “Tip D
 Create a local `.env` file in the project root (not committed) and add:
 
 ```bash
-AZURE_CV_ENDPOINT=https://sbuxrender.cognitiveservices.azure.com/
+AZURE_CV_ENDPOINT=
 AZURE_CV_KEY=<your-azure-key>
 SESSION_SECRET=<random-string>
 ```
