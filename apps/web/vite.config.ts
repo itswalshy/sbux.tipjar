@@ -35,17 +35,6 @@ export default defineConfig({
       }
     })
   ],
-<<<<<<< ours
-<<<<<<< ours
-<<<<<<< ours
-<<<<<<< ours
-=======
-=======
->>>>>>> theirs
-=======
->>>>>>> theirs
-=======
->>>>>>> theirs
   server: {
     proxy: {
       '/api': {
@@ -54,16 +43,6 @@ export default defineConfig({
       }
     }
   },
-<<<<<<< ours
-<<<<<<< ours
-<<<<<<< ours
->>>>>>> theirs
-=======
->>>>>>> theirs
-=======
->>>>>>> theirs
-=======
->>>>>>> theirs
   build: {
     outDir: 'dist',
     sourcemap: true
