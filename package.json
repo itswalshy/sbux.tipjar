@@ -1,0 +1,26 @@
+{
+  "name": "tipjar",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/web"
+  ],
+  "scripts": {
+    "dev:web": "vite --host",
+    "dev:api": "netlify dev",
+    "dev": "concurrently -k \"npm:dev:web\" \"npm:dev:api\"",
+    "build:web": "vite build",
+    "build": "npm run build:web",
+    "lint": "eslint \"apps/web/src/**/*.{ts,tsx}\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "eslint": "^8.57.0",
+    "eslint-config-react-app": "^7.0.1"
+  },
+  "dependencies": {
+    "@netlify/functions": "^2.5.1",
+    "busboy": "^1.6.0",
+    "zod": "^3.23.8"
+  }
+}
