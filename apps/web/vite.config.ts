@@ -36,7 +36,10 @@ export default defineConfig({
     })
   ],
 <<<<<<< ours
+<<<<<<< ours
 =======
+=======
+>>>>>>> theirs
   server: {
     proxy: {
       '/api': {
@@ -45,6 +48,9 @@ export default defineConfig({
       }
     }
   },
+<<<<<<< ours
+>>>>>>> theirs
+=======
 >>>>>>> theirs
   build: {
     outDir: 'dist',

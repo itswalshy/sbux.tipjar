@@ -3,6 +3,10 @@ node_modules
 .env.local
 .netlify
 <<<<<<< ours
+<<<<<<< ours
+=======
+.vercel
+>>>>>>> theirs
 =======
 .vercel
 >>>>>>> theirs
