@@ -1,6 +1,7 @@
 node_modules
 .env
 .env.local
+<<<<<<< ours
 .netlify
 <<<<<<< ours
 <<<<<<< ours
@@ -13,6 +14,8 @@ node_modules
 >>>>>>> theirs
 =======
 .vercel
+>>>>>>> theirs
+=======
 >>>>>>> theirs
 apps/web/dist
 pnpm-lock.yaml
