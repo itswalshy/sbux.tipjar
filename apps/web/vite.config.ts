@@ -35,6 +35,17 @@ export default defineConfig({
       }
     })
   ],
+<<<<<<< ours
+=======
+  server: {
+    proxy: {
+      '/api': {
+        target: 'http://localhost:8787',
+        changeOrigin: true
+      }
+    }
+  },
+>>>>>>> theirs
   build: {
     outDir: 'dist',
     sourcemap: true

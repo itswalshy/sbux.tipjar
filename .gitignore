@@ -2,6 +2,10 @@ node_modules
 .env
 .env.local
 .netlify
+<<<<<<< ours
+=======
+.vercel
+>>>>>>> theirs
 apps/web/dist
 pnpm-lock.yaml
 yarn.lock
