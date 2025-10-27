@@ -6,22 +6,41 @@
     "apps/web"
   ],
   "scripts": {
+<<<<<<< ours
     "dev-web": "vite --host",
     "dev-api": "vercel dev --listen 8787",
     "dev": "concurrently -k \"npm:dev-web\" \"npm:dev-api\"",
     "build-web": "vite build",
     "build": "npm run build-web",
+=======
+    "dev:web": "vite --host",
+    "dev:api": "nodemon --watch server --ext js server/index.js",
+    "dev": "concurrently -k \"npm:dev:web\" \"npm:dev:api\"",
+    "build:web": "vite build",
+    "build": "npm run build:web",
+    "start": "node server/index.js",
+    "heroku-postbuild": "npm run build",
+>>>>>>> theirs
     "lint": "eslint \"apps/web/src/**/*.{ts,tsx}\""
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
     "eslint": "^8.57.0",
     "eslint-config-react-app": "^7.0.1",
+<<<<<<< ours
     "vercel": "^33.2.0"
   },
   "dependencies": {
     "busboy": "^1.6.0",
     "@vercel/node": "^3.2.3",
+=======
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+>>>>>>> theirs
     "zod": "^3.23.8"
   }
 }
