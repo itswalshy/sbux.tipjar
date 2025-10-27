@@ -4,6 +4,10 @@ node_modules
 .netlify
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
+=======
+.vercel
+>>>>>>> theirs
 =======
 .vercel
 >>>>>>> theirs

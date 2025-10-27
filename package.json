@@ -7,6 +7,7 @@
   ],
   "scripts": {
 <<<<<<< ours
+<<<<<<< ours
     "dev:web": "vite --host",
 <<<<<<< ours
     "dev:api": "netlify dev",
@@ -17,17 +18,23 @@
     "build:web": "vite build",
     "build": "npm run build:web",
 =======
+=======
+>>>>>>> theirs
     "dev-web": "vite --host",
     "dev-api": "vercel dev --listen 8787",
     "dev": "concurrently -k \"npm:dev-web\" \"npm:dev-api\"",
     "build-web": "vite build",
     "build": "npm run build-web",
+<<<<<<< ours
+>>>>>>> theirs
+=======
 >>>>>>> theirs
     "lint": "eslint \"apps/web/src/**/*.{ts,tsx}\""
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
     "eslint": "^8.57.0",
+<<<<<<< ours
 <<<<<<< ours
 <<<<<<< ours
     "eslint-config-react-app": "^7.0.1"
@@ -38,6 +45,8 @@
 =======
 =======
 >>>>>>> theirs
+=======
+>>>>>>> theirs
     "eslint-config-react-app": "^7.0.1",
     "vercel": "^33.2.0"
   },
@@ -45,6 +54,9 @@
     "busboy": "^1.6.0",
     "@vercel/node": "^3.2.3",
 <<<<<<< ours
+<<<<<<< ours
+>>>>>>> theirs
+=======
 >>>>>>> theirs
 =======
 >>>>>>> theirs

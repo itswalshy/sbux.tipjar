@@ -37,7 +37,10 @@ export default defineConfig({
   ],
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
 =======
+=======
+>>>>>>> theirs
 =======
 >>>>>>> theirs
   server: {
@@ -49,6 +52,9 @@ export default defineConfig({
     }
   },
 <<<<<<< ours
+<<<<<<< ours
+>>>>>>> theirs
+=======
 >>>>>>> theirs
 =======
 >>>>>>> theirs
